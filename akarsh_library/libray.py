@@ -13,7 +13,7 @@ else:
     dfbooks['books']=[]
     dfbooks['authers']=[]
     dfbooks['publishers']=[]
-    dfbooks['issued']=[]
+    #dfbooks['issued']=[]
     
     dfbooks = dfbooks.set_index('book_id')
     
@@ -58,7 +58,7 @@ while True:
         df2['books']=[book]
         df2['authers']=[auth]
         df2['publishers']=[publ]
-        df2['issued']=['False']
+        #df2['issued']=['False']
              
         print('\n Printing added data \n',df2,'\n')
         
